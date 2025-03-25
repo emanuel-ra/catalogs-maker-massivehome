@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/massivehomecom/repositories/catalogs-maker-massivehome/
+    - /bin/cp -R $DEPLOYPATH* /home/massivehomecom/catalogmaker.massivehome.com.mx/
